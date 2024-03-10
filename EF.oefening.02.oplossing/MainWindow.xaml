@@ -1,0 +1,13 @@
+﻿<Window x:Class="EF.oefening._02.oplossing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EF.oefening._02.oplossing"
+        mc:Ignorable="d"
+            Title="Afbeelding container" Height="600" Width="420" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ListBox x:Name="LstAfbeeldingen" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,30,0,0" Width="350" Height="400" SelectionChanged="LstAfbeeldingen_SelectionChanged"/>
+        <Button x:Name="BtnNieuw" Content="Nieuw" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="230,460,0,0" Width="150" Height="30" Click="BtnNieuw_Click" />
+    </Grid>
+</Window>
